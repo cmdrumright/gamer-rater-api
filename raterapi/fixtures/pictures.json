@@ -1,0 +1,47 @@
+[
+  {
+    "model": "raterapi.picture",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "game": 1,
+      "image_url": "https://example.com/images/botw_cover.jpg"
+    }
+  },
+  {
+    "model": "raterapi.picture",
+    "pk": 2,
+    "fields": {
+      "user": 1,
+      "game": 2,
+      "image_url": "https://example.com/images/rdr2_cover.jpg"
+    }
+  },
+  {
+    "model": "raterapi.picture",
+    "pk": 3,
+    "fields": {
+      "user": 2,
+      "game": 3,
+      "image_url": "https://example.com/images/minecraft_cover.jpg"
+    }
+  },
+  {
+    "model": "raterapi.picture",
+    "pk": 4,
+    "fields": {
+      "user": 2,
+      "game": 4,
+      "image_url": "https://example.com/images/witcher3_cover.jpg"
+    }
+  },
+  {
+    "model": "raterapi.picture",
+    "pk": 5,
+    "fields": {
+      "user": 3,
+      "game": 5,
+      "image_url": "https://example.com/images/elden_ring_cover.jpg"
+    }
+  }
+]

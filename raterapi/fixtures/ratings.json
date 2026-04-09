@@ -1,0 +1,65 @@
+[
+  {
+    "model": "raterapi.rating",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "game": 1,
+      "rating": 10
+    }
+  },
+  {
+    "model": "raterapi.rating",
+    "pk": 2,
+    "fields": {
+      "user": 2,
+      "game": 1,
+      "rating": 9
+    }
+  },
+  {
+    "model": "raterapi.rating",
+    "pk": 3,
+    "fields": {
+      "user": 1,
+      "game": 2,
+      "rating": 10
+    }
+  },
+  {
+    "model": "raterapi.rating",
+    "pk": 4,
+    "fields": {
+      "user": 3,
+      "game": 3,
+      "rating": 8
+    }
+  },
+  {
+    "model": "raterapi.rating",
+    "pk": 5,
+    "fields": {
+      "user": 2,
+      "game": 4,
+      "rating": 10
+    }
+  },
+  {
+    "model": "raterapi.rating",
+    "pk": 6,
+    "fields": {
+      "user": 3,
+      "game": 5,
+      "rating": 9
+    }
+  },
+  {
+    "model": "raterapi.rating",
+    "pk": 7,
+    "fields": {
+      "user": 1,
+      "game": 6,
+      "rating": 8
+    }
+  }
+]

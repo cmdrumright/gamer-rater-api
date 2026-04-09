@@ -1,0 +1,72 @@
+[
+  {
+    "model": "raterapi.review",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "game": 1,
+      "review": "An absolute masterpiece. Breath of the Wild reinvented what open-world games could be. Every corner of Hyrule feels alive and full of discovery.",
+      "date": "2023-03-15T10:30:00Z"
+    }
+  },
+  {
+    "model": "raterapi.review",
+    "pk": 2,
+    "fields": {
+      "user": 2,
+      "game": 1,
+      "review": "Stunning visuals and incredible freedom. The physics and chemistry systems are unlike anything I've seen. A must-play for any Nintendo fan.",
+      "date": "2023-05-22T14:15:00Z"
+    }
+  },
+  {
+    "model": "raterapi.review",
+    "pk": 3,
+    "fields": {
+      "user": 1,
+      "game": 2,
+      "review": "Red Dead Redemption 2 is a cinematic triumph. Arthur Morgan is one of gaming's greatest protagonists. The world detail is unmatched.",
+      "date": "2023-06-10T09:00:00Z"
+    }
+  },
+  {
+    "model": "raterapi.review",
+    "pk": 4,
+    "fields": {
+      "user": 3,
+      "game": 3,
+      "review": "Minecraft never gets old. Whether you're building, surviving, or exploring, there's always something new to discover. A timeless classic.",
+      "date": "2023-07-04T16:45:00Z"
+    }
+  },
+  {
+    "model": "raterapi.review",
+    "pk": 5,
+    "fields": {
+      "user": 2,
+      "game": 4,
+      "review": "The Witcher 3 sets the gold standard for RPGs. The storytelling is phenomenal, side quests feel meaningful, and the world is breathtaking.",
+      "date": "2023-08-19T11:20:00Z"
+    }
+  },
+  {
+    "model": "raterapi.review",
+    "pk": 6,
+    "fields": {
+      "user": 3,
+      "game": 5,
+      "review": "Elden Ring is FromSoftware's magnum opus. The open world exploration combined with their signature challenging combat is pure perfection.",
+      "date": "2023-09-01T20:00:00Z"
+    }
+  },
+  {
+    "model": "raterapi.review",
+    "pk": 7,
+    "fields": {
+      "user": 1,
+      "game": 6,
+      "review": "GTA V remains one of the most impressive open worlds ever created. The three-protagonist system keeps the story fresh and engaging throughout.",
+      "date": "2023-10-12T13:30:00Z"
+    }
+  }
+]

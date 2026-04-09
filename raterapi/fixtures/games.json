@@ -1,0 +1,80 @@
+[
+  {
+    "model": "raterapi.game",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "title": "The Legend of Zelda: Breath of the Wild",
+      "description": "An open-world action-adventure game set in the kingdom of Hyrule, where Link must defeat Calamity Ganon.",
+      "release_year": 2017,
+      "player_count": 1,
+      "completion_hours": 50,
+      "recommended_age": 10
+    }
+  },
+  {
+    "model": "raterapi.game",
+    "pk": 2,
+    "fields": {
+      "user": 1,
+      "title": "Red Dead Redemption 2",
+      "description": "An epic tale of life in America's unforgiving heartland, following outlaw Arthur Morgan and the Van der Linde gang.",
+      "release_year": 2018,
+      "player_count": 1,
+      "completion_hours": 60,
+      "recommended_age": 17
+    }
+  },
+  {
+    "model": "raterapi.game",
+    "pk": 3,
+    "fields": {
+      "user": 2,
+      "title": "Minecraft",
+      "description": "A sandbox game where players explore, build, and survive in a procedurally generated world made of blocks.",
+      "release_year": 2011,
+      "player_count": 8,
+      "completion_hours": 100,
+      "recommended_age": 7
+    }
+  },
+  {
+    "model": "raterapi.game",
+    "pk": 4,
+    "fields": {
+      "user": 2,
+      "title": "The Witcher 3: Wild Hunt",
+      "description": "A story-driven open world RPG set in a visually stunning fantasy universe, following Geralt of Rivia.",
+      "release_year": 2015,
+      "player_count": 1,
+      "completion_hours": 100,
+      "recommended_age": 18
+    }
+  },
+  {
+    "model": "raterapi.game",
+    "pk": 5,
+    "fields": {
+      "user": 3,
+      "title": "Elden Ring",
+      "description": "An action RPG developed by FromSoftware and George R.R. Martin, set in the Lands Between.",
+      "release_year": 2022,
+      "player_count": 3,
+      "completion_hours": 60,
+      "recommended_age": 17
+    }
+  },
+  {
+    "model": "raterapi.game",
+    "pk": 6,
+    "fields": {
+      "user": 3,
+      "title": "Grand Theft Auto V",
+      "description": "An open-world action-adventure game following three criminals in the fictional city of Los Santos.",
+      "release_year": 2013,
+      "player_count": 30,
+      "completion_hours": 31,
+      "recommended_age": 17
+    }
+  }
+]
