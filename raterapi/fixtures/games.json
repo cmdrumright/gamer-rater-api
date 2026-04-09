@@ -9,7 +9,8 @@
       "release_year": 2017,
       "player_count": 1,
       "completion_hours": 50,
-      "recommended_age": 10
+      "recommended_age": 10,
+      "categories": [8, 10, 6]
     }
   },
   {
@@ -22,7 +23,8 @@
       "release_year": 2018,
       "player_count": 1,
       "completion_hours": 60,
-      "recommended_age": 17
+      "recommended_age": 17,
+      "categories": [8, 10, 6]
     }
   },
   {
@@ -35,7 +37,8 @@
       "release_year": 2011,
       "player_count": 8,
       "completion_hours": 100,
-      "recommended_age": 7
+      "recommended_age": 7,
+      "categories": [8, 10, 6]
     }
   },
   {
@@ -48,7 +51,8 @@
       "release_year": 2015,
       "player_count": 1,
       "completion_hours": 100,
-      "recommended_age": 18
+      "recommended_age": 18,
+      "categories": [8, 10, 6]
     }
   },
   {
@@ -61,7 +65,8 @@
       "release_year": 2022,
       "player_count": 3,
       "completion_hours": 60,
-      "recommended_age": 17
+      "recommended_age": 17,
+      "categories": [8, 10, 6]
     }
   },
   {
@@ -74,7 +79,8 @@
       "release_year": 2013,
       "player_count": 30,
       "completion_hours": 31,
-      "recommended_age": 17
+      "recommended_age": 17,
+      "categories": []
     }
   }
 ]
