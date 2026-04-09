@@ -1,0 +1,38 @@
+Table user {
+    id int [pk, increment]
+}
+
+Table game {
+    id int [pk, increment]
+    user_id int [ref:> user.id]
+    title string
+    description string
+    release_year int
+    player_count int
+    completion_hours int
+    recommended_age int
+}
+
+Table picture {
+    id int [pk, increment]
+    user_id int [ref:> user.id]
+    game_id int [ref:> game.id]
+    image_url string
+}
+
+Table rating {
+    id int [pk, increment]
+    user_id int [ref:> user.id]
+    game_id int [ref:> game.id]
+    rating int    
+}
+
+Table review {
+    id int [pk, increment]
+    user_id int [ref:> user.id]
+    game_id int [ref:> game.id]
+    review string
+    date datetime
+}
+
+
