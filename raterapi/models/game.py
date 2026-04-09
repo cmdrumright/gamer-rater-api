@@ -4,7 +4,7 @@ from django.contrib.auth.models import User
 
 class Game(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name="games")
-    title = models.CharField(max_length=255)
+    title = models.CharField(max_length=255, unique=True)
     description = models.TextField()
     release_year = models.IntegerField()
     player_count = models.IntegerField()
