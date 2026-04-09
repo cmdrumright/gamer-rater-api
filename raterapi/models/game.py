@@ -10,6 +10,9 @@ class Game(models.Model):
     player_count = models.IntegerField()
     completion_hours = models.IntegerField()
     recommended_age = models.IntegerField()
+    categories = models.ManyToManyField(
+        "Category", through="GameCategory", related_name="games"
+    )
 
     def __str__(self):
         return f"Game: {self.title}"

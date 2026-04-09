@@ -35,4 +35,13 @@ Table review {
     date datetime
 }
 
+Table category {
+    id int [pk, increment]
+    name string
+}
 
+Table gameCategory {
+    id int [pk, increment]
+    game_id int [ref:> game.id]
+    category_id int [ref:> category.id]    
+}
